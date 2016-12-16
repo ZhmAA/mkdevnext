@@ -1,3 +1,3 @@
 [![Build Status](https://travis-ci.org/ZhmAA/mkdevnext.svg?branch=first-task)](https://travis-ci.org/ZhmAA/mkdevnext)
 
-{<img src="https://codeclimate.com/repos/551d5933695680514c00019c/badges/20539730e3e119e4d337/gpa.svg" />}[https://codeclimate.com/repos/551d5933695680514c00019c/feed]
+[![Code Climate](https://codeclimate.com/github/ZhmAA/mkdevnext/badges/gpa.svg)](https://codeclimate.com/github/ZhmAA/mkdevnext)
