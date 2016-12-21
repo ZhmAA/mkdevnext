@@ -36,6 +36,9 @@ gem 'responders'
 
 gem 'puma'
 
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
