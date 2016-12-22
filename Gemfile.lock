@@ -185,6 +185,8 @@ GEM
       activerecord (>= 3.0)
     public_suffix (2.0.4)
     puma (3.6.2)
+    pundit (1.1.0)
+      activesupport (>= 3.0.0)
     rack (2.0.1)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -226,6 +228,7 @@ GEM
     rdoc (4.3.0)
     responders (2.3.0)
       railties (>= 4.2.0, < 5.1)
+    rolify (5.1.0)
     rollbar (2.13.3)
       multi_json
     routing-filter (0.6.0)
@@ -310,10 +313,12 @@ DEPENDENCIES
   nokogiri
   pg
   puma
+  pundit
   rails
   rails_12factor
   rake
   responders
+  rolify
   rollbar
   routing-filter
   rspec-rails
