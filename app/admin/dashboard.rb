@@ -11,7 +11,7 @@ ActiveAdmin.register_page "Dashboard" do
     #end
 
 
-    section "Last Cards" do
+  section "Last Cards" do
     table_for Card.order("created_at desc").limit(20) do
       column :original_text do |card|
         link_to card.original_text, [:admin, card]

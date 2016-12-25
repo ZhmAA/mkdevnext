@@ -1,6 +1,8 @@
 require "application_responder"
 
 class ApplicationController < ActionController::Base
+  include Pundit
+
   self.responder = ApplicationResponder
   respond_to :html
 
@@ -29,5 +31,12 @@ class ApplicationController < ActionController::Base
 
   def default_url_options(options = {})
     { locale: I18n.locale }.merge options
+  end
+
+  private
+
+  def access_denied(error)
+    flash[:alert] = "You have not access to this page"
+    redirect_to(root_path)
   end
 end
