@@ -49,4 +49,8 @@ group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'byebug'
+
+  gem 'shoulda-matchers'
+  gem 'webmock'
+  gem 'rails-controller-testing'
 end
