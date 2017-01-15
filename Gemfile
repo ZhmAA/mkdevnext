@@ -44,6 +44,8 @@ gem "pundit"
 
 gem 'flickraw-cached'
 
+gem 'travis'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
