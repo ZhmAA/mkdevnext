@@ -113,6 +113,9 @@ GEM
       multipart-post (>= 1.2, < 3)
     figaro (1.1.1)
       thor (~> 0.14)
+    flickraw (0.9.9)
+    flickraw-cached (20120701)
+      flickraw (>= 0.9)
     fog-aws (1.0.0)
       fog-core (~> 1.38)
       fog-json (~> 1.0)
@@ -304,6 +307,7 @@ DEPENDENCIES
   factory_girl_rails
   faraday
   figaro
+  flickraw-cached
   fog-aws
   http_accept_language
   inherited_resources!

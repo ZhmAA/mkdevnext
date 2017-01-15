@@ -42,6 +42,8 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem "rolify"
 gem "pundit"
 
+gem 'flickraw-cached'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
