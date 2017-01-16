@@ -42,9 +42,15 @@ gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem "rolify"
 gem "pundit"
 
+gem 'flickraw-cached'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'factory_girl_rails'
   gem 'byebug'
+
+  gem 'shoulda-matchers'
+  gem 'webmock'
+  gem 'rails-controller-testing'
 end

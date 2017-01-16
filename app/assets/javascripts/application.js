@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require flickr_search
 // require_tree .
