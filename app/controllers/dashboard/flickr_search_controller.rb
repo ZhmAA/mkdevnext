@@ -3,7 +3,7 @@ class Dashboard::FlickrSearchController < Dashboard::BaseController
   respond_to :js
 
   def search
-    count = 0
+    #count = 0
     @search_tag = params[:search]
 
     begin
