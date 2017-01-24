@@ -27,6 +27,13 @@ GIT
       railties (>= 3.2, < 5.1)
       responders
 
+GIT
+  remote: https://github.com/ZhmAA/api_flashcards
+  revision: 48f57e5ec3c6cb7d3dbd7f4c877c3891058f6dac
+  specs:
+    api_flashcards (0.1.0)
+      rails (~> 5.0.0, >= 5.0.0.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -314,6 +321,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  api_flashcards!
   byebug
   capybara
   carrierwave

@@ -44,6 +44,8 @@ gem "pundit"
 
 gem 'flickraw-cached'
 
+gem 'api_flashcards', git: 'https://github.com/ZhmAA/api_flashcards'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
